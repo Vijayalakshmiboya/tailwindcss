@@ -1,0 +1,12 @@
+{
+  "name": "workbee",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./source/index.css -o ./project/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
